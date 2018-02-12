@@ -15,20 +15,22 @@
 - S8 Insertion sites predicted by GC-density
 - S9 Genome annotation for prophage protein 
 
-###anno.xlsx
+###annotation
 
-- S1 all proteins
-- S2 
-- S3
-- S4
-- S5
+- anno.xlsx **whole genome annotation by NCBI database**
+- 1.phage **Four kinds of prophage proteins and their distributions. Each column: strain ID\tprotein label\tposition**
+      **transposase
+      **integrase
+      **tail protein
+      **terminase
+      ::protease:: ~This one is evenly distributed in bacteria chromosomes.
 
 
 ##for plotting GC-curve:
 
 code: plot_curve.R
-data: curve data: *.gc;
-      annotation data 1.phage.
+data: curve data: ::*.gc::;
+      annotation data: ::1.phage::.
 
 
 ##Code for GC-density model:
