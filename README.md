@@ -22,7 +22,7 @@
 
 - 1.phage 
       %%Four kinds of prophage proteins and their distributions. Each column: strain ID\tprotein label\tposition**
-      %%transposase\\
+      %%transposase\n
       %%integrase
       %%tail protein
       %%terminase
