@@ -22,11 +22,11 @@
 
 - 1.phage 
       %%Four kinds of prophage proteins and their distributions. Each column: strain ID\tprotein label\tposition**
-      %%transposase\n
-      %%integrase
-      %%tail protein
-      %%terminase
-      ::protease:: ~This one is evenly distributed in bacteria chromosomes.
+      - transposase
+      - integrase
+      - tail protein
+      - terminase
+      - protease  ~This one is evenly distributed in bacteria chromosomes.
 
 
 ##for plotting GC-curve:
