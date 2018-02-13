@@ -33,7 +33,7 @@
       - protease  ~This one is evenly distributed in bacteria chromosomes.
 
 
-##for plotting GC-curve:
+###for plotting GC-curve:
 
       code: plot_curve.R
 
@@ -42,7 +42,7 @@
             annotation data: ::1.phage::.
 
 
-##Code for GC-density model:
+###Code for GC-density model:
 
       Usage: Download gc_curve executable file and use it directly. 
 
