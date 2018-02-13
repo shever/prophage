@@ -21,26 +21,30 @@
 %%whole genome annotation by NCBI database
 
 - 1.phage 
-      %%Four kinds of prophage proteins and their distributions. Each column: strain ID\tprotein label\tposition**
-      - transposase
-      - integrase
+      - Four kinds of prophage proteins and their distributions. Each column: strain ID\tprotein label\tposition
+      - transposase- integrase
       - tail protein
       - terminase
+
       - protease  ~This one is evenly distributed in bacteria chromosomes.
 
 
 ##for plotting GC-curve:
 
 code: plot_curve.R
+
 data: curve data: ::*.gc::;
+
       annotation data: ::1.phage::.
 
 
 ##Code for GC-density model:
 
 Usage: Download gc_curve executable file and use it directly. 
+
 Command: ./gc_curve *.fa(*.fasta)  [window_size(integer)] [out.name]
 
 If you want to see the source code, please refer to gc_curve.cpp
+
 compile: g++ gc_curve.cpp -o gc_curve
 
